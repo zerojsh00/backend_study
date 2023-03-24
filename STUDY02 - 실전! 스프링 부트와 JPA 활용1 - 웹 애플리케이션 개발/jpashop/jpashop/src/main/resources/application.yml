@@ -11,7 +11,7 @@ spring:
       # 애플리케이션 실행 시점에 가지고 있는 테이블을 지우고 엔티티 정보를 토대로 다시 생성함
     properties:
       hibernate:
-#        show_sql: true (System.out.println을 통해서 SQL을 기록함)
+#        show_sql: true (콘솔에 실행되는 테이블 생성 DDL(Data Definition Language)을 출력할 수 있음)
         format_sql: true
 
 logging.level:
